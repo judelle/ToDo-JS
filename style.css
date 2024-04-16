@@ -77,3 +77,8 @@ flex-direction: column;
 .task-text {
     width: 70%;
 }
+
+.completed {
+    display: none;
+    background-color: rgba(167, 0, 87, 0.5);
+}
