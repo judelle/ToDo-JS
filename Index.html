@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <div class="container">
+            <div class="box">
+                <div class="title">ToDos</div>
+                <div class="newtask">
+                    <input type="text" id="taskInput" />
+                    <button class="new" onclick="addTask()">Add Task</button>
+                </div>
+                <div class="tasks">
+                </div> 
+                <div class="tasks" id="taskList"></div>
+               <div class="bottomtalbe">
+                <div id="taskCount">0 tasks left</div>
+                 <div class="centralbtn">
+                     <button class="all btn">All</button>
+                        <button class="todo btn">Tasks</button>
+                       <button class="complited btn">Complited</button>
+                 </div>
+                 <button class="clear btn" onclick="clearAll()">Clear all</button>   
+             </div>  
+         </div>
+     </div>
+    <script src="/ToDo/index.js"></script>
+</body>
+</html>
